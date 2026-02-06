@@ -16,11 +16,11 @@ all-features = true
 maintenance = { status = "actively-developed" }
 
 [features]
-default = ["reqwest", "rustls"]
+default = ["reqwest", "rustls-tls"]
 pkce-plain = []
 native-tls = ["reqwest/native-tls"]
 reqwest-blocking = ["reqwest/blocking"]
-rustls = ["reqwest/rustls"]
+rustls-tls = ["reqwest/rustls"]
 timing-resistant-secret-traits = []
 
 [[example]]
